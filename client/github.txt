@@ -1,0 +1,11 @@
+GitHub connection implemented via Firebase OAuth.
+Frontend:
+- Implemented handleLogin in App.jsx
+- Added "Connect with GitHub" button in Header.jsx
+- Integrated user profile display after login
+
+Backend (Reminder):
+- Ensure .env in /server contains:
+  GITHUB_TOKEN=your_token
+  GITHUB_REPO_OWNER=your_username
+  GITHUB_REPO_NAME=your_repo
