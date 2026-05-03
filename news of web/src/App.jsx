@@ -232,7 +232,7 @@ function App() {
   const toggleBookmark = (e, id) => { e.stopPropagation(); setBookmarks(prev => prev.includes(id) ? prev.filter(b => b !== id) : [...prev, id]); };
 
   return (
-    <div className="app-container">
+    <div className="extension-container">
       <header className="header">
         <div className="search-container">
           <Search className="search-icon" size={18} />
